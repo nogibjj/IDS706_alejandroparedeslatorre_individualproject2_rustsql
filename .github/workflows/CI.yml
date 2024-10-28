@@ -20,7 +20,7 @@ jobs:
       - name: format
         run: make format
       - name: release
-        run: make build
+        run: make release
       - name: Upload binary as artifact
         uses: actions/upload-artifact@v3
         with:

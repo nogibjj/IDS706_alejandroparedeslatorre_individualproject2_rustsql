@@ -21,7 +21,7 @@ According to the requirement we have
 * `.devcontainer` for Githubcodespace 
 
 ## You can find a brief introduction to the project in the following link:
-[Project details and walkthrough]()
+[Project details and walkthrough](https://youtu.be/gAbbxg8MjZU)
 
 ## The architecture for the project is presented as follows:
 ![plot](sql_structure.JPG)
