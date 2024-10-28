@@ -1,5 +1,5 @@
 # IDS706_alejandroparedeslatorre_individualproject2_rustsql
-
+[![CI](https://github.com/nogibjj/IDS706_alejandroparedeslatorre_individualproject2_rustsql/actions/workflows/CI.yml/badge.svg)](https://github.com/nogibjj/IDS706_alejandroparedeslatorre_individualproject2_rustsql/actions/workflows/CI.yml)
 
 This project is a Rust-based command-line application to manage university data, including ETL (Extract, Transform, Load) and CRUD (Create, Read, Update, Delete) operations. The project also includes a test suite to ensure each function works correctly.
 
