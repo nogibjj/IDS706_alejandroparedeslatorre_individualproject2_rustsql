@@ -21,3 +21,9 @@ jobs:
         run: make format
       - name: release
         run: make build
+      - name: Upload binary as artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: alejandroparedeslatorre_sql-binary  # Replace `my_project` with your binary name
+          path: target/release/alejandroparedeslatorre_sql.exe  # Path to the binary file
+          retention-days: 7  # Set retention period for artifact, default is 90 days
