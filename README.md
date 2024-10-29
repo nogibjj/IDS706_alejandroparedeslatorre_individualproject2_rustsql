@@ -26,9 +26,15 @@ According to the requirement we have
 ## The architecture for the project is presented as follows:
 ![plot](sql_structure.JPG)
 
-
 ## Use of Gen A:
 I use Chatgpt to convert my previous Python code into Rust, but modify it as it isn't accurate and doesn't do error handling correctly at times.
+
+## Processing times:
+Comparing execution times between Rust and Python shows Rust’s significant performance advantages due to its compiled nature, efficient memory management, and lack of a garbage collector. Rust runs close to the hardware, allowing for faster and more efficient processing, especially for CPU-bound and concurrent tasks, while Python's interpreted nature and Global Interpreter Lock (GIL) generally make it slower, though it excels in development speed and ease of use due to its simple syntax and extensive libraries. Overall, Rust is ideal for performance-critical applications, while Python is well-suited for rapid development and prototyping.
+
+[Read DB time rust](rust_output.txt)
+
+[Read DB time python](python_output.txt)
 
 ## Features
 

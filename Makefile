@@ -35,7 +35,9 @@ install:
 	rustup default stable 
 
 #all: format lint test run
-
+times:
+	cargo build --bin times && ./target/debug/times > rust_output.txt
+	python3 lib/times.py  > python_output.txt
 
 run_cli:
 	cargo run -- etl
